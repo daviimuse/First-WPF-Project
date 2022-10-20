@@ -33,7 +33,7 @@ namespace First_WPF_Project
 
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(surname)|| string.IsNullOrEmpty(usrn) || string.IsNullOrEmpty(psw))
             {
-                MessageBox.Show("Empty value! ");
+                MessageBox.Show("Empty values!");
             }
             else
             {

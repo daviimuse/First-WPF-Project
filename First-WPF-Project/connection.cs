@@ -21,7 +21,7 @@ namespace First_WPF_Project
         private void Initialize(){
             server = "localhost";
             usrn = "root";
-            psw = "root";
+            psw = "password";
             db = "wpf_logindb";
             string connectionString;
             connectionString = "Data Source=" + server + ";Database =" + db + ";User Id=" + usrn + ";Password=" + psw + ";SSL Mode=0";
