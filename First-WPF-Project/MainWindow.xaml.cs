@@ -42,7 +42,9 @@ namespace First_WPF_Project
                         if(a == null){
                             MessageBox.Show("Invalid username/password, please try again!");
                         }else{
-                            MessageBox.Show("User Valid!");
+                            Home home = new Home();
+                            home.Show();
+                            this.Close();
                         }
                     }catch(MySqlException ex){
                         MessageBox.Show("" + ex);
